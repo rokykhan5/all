@@ -1,0 +1,47 @@
+.slider{
+	background-image: url(../images/cover.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: auto;
+	background-size: cover;
+	background-position: center;
+}
+.custom-slider {
+	background: rgba(14,9,4,.5);
+	color: #fff;
+	padding: 47px 100px;
+}
+.custom-slider h1 {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 38px;
+	margin-bottom: 20px;
+}
+.custom-slider p {
+	font-size: 18px;
+	text-align: center;
+}
+.btn_custom {
+	margin-bottom: 100px;
+}
+.custom-indicators {
+
+	bottom: 50px;
+	
+}
+.custom-indicators li {
+	
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: rgba(14,9,4,0.5); 
+}
+.custom-indicators .active {
+	background: green;
+}
+.day, .month, .year{
+	float: left;
+}
+
+.form-section{
+	overflow: hidden;
+}
